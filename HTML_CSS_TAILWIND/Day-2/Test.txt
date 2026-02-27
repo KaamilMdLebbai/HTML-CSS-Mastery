@@ -1,0 +1,23 @@
+Page Logo
+Welcome Text
+Heading: User Registration
+  Sub-Heading & Details to be Filled
+  Personal Information
+    Name
+    DOB
+    Gender
+    Mobile No
+    Email-id
+  Addition Information
+    Address
+    Country of Residence
+    Refered By
+  ID Verification
+    ID Proof Name
+    ID Upload
+  User Credentials
+    User Name
+    Password
+    Confirm Password
+    Agreement Checkbox
+Submit Button

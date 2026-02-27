@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS A4 Cheatsheet</title>
+<style>
+@page { size: A4; margin: 12mm; }
+body{font-family:Arial;margin:0}
+h1{text-align:center;font-size:22px;margin:10px 0}
+.container{column-count:2;column-gap:24px}
+section{break-inside:avoid;margin-bottom:14px}
+h2{font-size:14px;border-bottom:1px solid #000;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th,td{border:1px solid #000;padding:4px;text-align:left}
+th{background:#eee}
+.code{font-family:monospace;font-weight:bold}
+.footer{position:fixed;bottom:5mm;left:0;right:0;text-align:center;font-size:10px}
+</style>
+</head>
+<body>
+<h1>CSS COMPLETE A4 CHEATSHEET</h1>
+<div class="container">
+
+<section>
+<h2>Selectors</h2>
+<table>
+<tr><th>Syntax</th><th>Meaning</th></tr>
+<tr><td class="code">*</td><td>All elements</td></tr>
+<tr><td class="code">p</td><td>Tag selector</td></tr>
+<tr><td class="code">.class</td><td>Class selector</td></tr>
+<tr><td class="code">#id</td><td>ID selector</td></tr>
+<tr><td class="code">A B</td><td>Descendant</td></tr>
+<tr><td class="code">A &gt; B</td><td>Direct child</td></tr>
+<tr><td class="code">A + B</td><td>Adjacent sibling</td></tr>
+<tr><td class="code">A ~ B</td><td>General sibling</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Box Model</h2>
+<table>
+<tr><th>Property</th><th>Use</th></tr>
+<tr><td class="code">margin</td><td>Outer space</td></tr>
+<tr><td class="code">border</td><td>Border line</td></tr>
+<tr><td class="code">padding</td><td>Inner space</td></tr>
+<tr><td class="code">width/height</td><td>Size</td></tr>
+<tr><td class="code">box-sizing</td><td>content-box / border-box</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Text & Font</h2>
+<table>
+<tr><th>Property</th><th>Use</th></tr>
+<tr><td class="code">color</td><td>Text color</td></tr>
+<tr><td class="code">font-size</td><td>Size</td></tr>
+<tr><td class="code">font-family</td><td>Typeface</td></tr>
+<tr><td class="code">font-weight</td><td>Boldness</td></tr>
+<tr><td class="code">text-align</td><td>Alignment</td></tr>
+<tr><td class="code">line-height</td><td>Spacing</td></tr>
+<tr><td class="code">letter-spacing</td><td>Letter gap</td></tr>
+<tr><td class="code">text-transform</td><td>Upper/lowercase</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Background</h2>
+<table>
+<tr><th>Property</th><th>Use</th></tr>
+<tr><td class="code">background-color</td><td>Color</td></tr>
+<tr><td class="code">background-image</td><td>Image</td></tr>
+<tr><td class="code">background-size</td><td>Cover/contain</td></tr>
+<tr><td class="code">background-position</td><td>Placement</td></tr>
+<tr><td class="code">background-repeat</td><td>Repeat control</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Flexbox</h2>
+<table>
+<tr><th>Property</th><th>Use</th></tr>
+<tr><td class="code">display:flex</td><td>Enable flex</td></tr>
+<tr><td class="code">justify-content</td><td>Main axis align</td></tr>
+<tr><td class="code">align-items</td><td>Cross axis align</td></tr>
+<tr><td class="code">flex-direction</td><td>Row/column</td></tr>
+<tr><td class="code">gap</td><td>Spacing</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Grid</h2>
+<table>
+<tr><th>Property</th><th>Use</th></tr>
+<tr><td class="code">display:grid</td><td>Enable grid</td></tr>
+<tr><td class="code">grid-template-columns</td><td>Columns</td></tr>
+<tr><td class="code">grid-template-rows</td><td>Rows</td></tr>
+<tr><td class="code">grid-gap</td><td>Spacing</td></tr>
+<tr><td class="code">place-items</td><td>Center items</td></tr>
+</table>
+</section>
+
+</div>
+<div class="footer">Print at 100% scale | Single Page A4</div>
+</body>
+</html>

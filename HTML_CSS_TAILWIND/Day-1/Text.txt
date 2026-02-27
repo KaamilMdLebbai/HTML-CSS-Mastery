@@ -1,0 +1,68 @@
+Introduction to Crowd-Funding:
+    Assume you're in a situation where you need a Large sum of money for a surgery, but using old methods like Visiting some places to get a Fund Donation is highly time taking as well as requires a lot of Expenses just to visit serveral places on the other hand if you use some Social-Media Platforms due to its un-trustability you won't be able collect it easier also it requires a huge influence. So this where Crowd-Fund comes in.
+
+Crowd-Fund and its Benefits:
+    Crowd-Fund is fund collection based platform used to collect funds and donations for needs like Medical Expenses, Educational Expenses, Startup Idea Expenses, etc... This doesn't end with that but help a lot people around the world who are in need without any Charges to the Run a Campaign.
+
+Types of Crowd-Funding:
+    Medical Emergency Funding
+    Education Support Funding
+    Startup Funding
+    Disaster Relief Funding
+    Community Help Funding
+    etc...
+
+How to use it ?
+    First Create an account in the Crowd-Fund Platform.
+    Then Login with your details into the platform and go to create campaigns in the Navbar.
+    Now fill the form in the page with Necessary Details like Campaign Name, Campaign Description, Fund Required, etc... and Upload the Required Files like Supporting Document, Campaign Poster, etc...
+    After this Submit it and Wait for Admin Verification.
+    After the Approval of the Admin the Campaign is posted in the platform.
+    Now Backers donate funds to the Campaign which is collected by the platform's Razor pay Account. 
+    A Campaign ends if the required fund is collected or the deadline of the campaign is crossed.
+    During the campaign or after its end the Creator of the campaign can request the platform to transfer the fund to their account by providing necessary details and wait for the process to happen. 
+    Then the admin sees the request and process the payment to the creator and approves it.
+    Now you have completed your goal in collecting your required fund.
+    
+Why Use Crowd-Fund & not Social-Media Platforms ?
+  Trust:
+    
+    ->In Social-Media Platforms most of the Posts aren't a Reliable as they may contain Fake Details, Old Posts, Scams, etc...
+
+    ->In Crowd-Funding the Admin is trustworthy person who only accepts and displays Real Post and Displays it in the Platform.
+
+  Verification:
+
+    ->In Social-Media Platforms no one verifies a post and just circulates it without knowing its trustability.
+
+    ->In Crowd-Funding the Admin verifies the trustability and only after confirmation he circulates it into the platform.
+  
+  Tracking:
+
+    ->In Social-Media Platforms no one track a post and  know the current status of the Fund collection unless the Creator posts it himself.
+
+    ->In Crowd-Funding tracking is very simple as every time a backer fund the platform it is dynamically updated then show to them the current status of the Campaign.
+
+  Payment Safety;
+
+    ->In Social-Media Platforms the fund transfer is mostly done through UPI or Account.No and so it unrelaible as we won't be able to know if the beneficiary is the holder of the account.
+
+    ->In Crowd-Funding the fund is first collected in the Platform's Account then the payout is done when the creator is requesting the transfer after checking the details.
+
+An User's Story:
+    This user posted his Campaign for his Education Expenses in the platform and used Social-Media as an Advertiser and successfully collected his required fund of RS.50,000 within 7 Days.
+
+Image:
+    Image of a Successfully Completed Campaign.
+
+Related Topics:
+    How online payments work
+    Digital wallets
+    NGO transparency
+    Charity scams
+    Fundraising tips
+
+Authour:
+    Kaamil Mohamed Lebbai K,
+    Founder of Crowd-Fund,
+    kaamilmohammedlebbai@gmail.com

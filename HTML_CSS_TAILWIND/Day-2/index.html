@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo-light.png" alt="site-logo" width="350px" />
+      <h2>Welcome to Crowd-Fund</h2>
+    </header>
+    <main>
+      <form action="null" method="post">
+        <h1>User Registration</h1>
+        <p>Fill all the fields marked <q> * </q>.</p>
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name"> Name* </label>
+          <input type="text" id="name" name="real-name" placeholder="eg.Kaamil" required />
+        
+          <label for="dob"> Date of Birth* </label>
+          <input type="date" id="dob" name="dob" required />
+        
+          Gender*
+          <input
+          type="radio"
+          name="gender"
+          value="male"
+          id="male"
+          required
+          />
+          <label for="male"> Male </label>
+          <input
+          type="radio"
+          name="gender"
+          value="female"
+          id="female"
+          required
+          />
+          <label for="female"> Female </label>
+        
+          <label for="mobile-no"> Mobile Number* </label>
+          <input
+            type="tel"
+            id="mobile-no"
+            name="mobile-no"
+            pattern="[0-9]\d{9}"
+            placeholder="eg.7541298630"
+            required
+          />
+        
+          <label for="email"> Email-id* </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="eg.user@gmail.com"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information</legend>
+          <label for="address"> Address* </label>
+          <textarea
+            id="address"
+            name="address"
+            cols="40"
+            rows="3"
+            placeholder="eg.38, Asad Road, TVL"
+            required
+          ></textarea>
+        
+          <label for="country"> Country* </label>
+          <select name="country" id="country" required>
+            <option value="select" disabled selected>Select One</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="other">Other</option>
+          </select>
+        
+          <label for="refer"> Refered By </label>
+          <input type="text" id="refer" name="refer" placeholder="eg.Instagram" />
+        </fieldset>
+
+        <fieldset>
+          <legend>ID Verification</legend>
+          <label for="id-type"> ID Type* </label>
+          <input
+            type="text"
+            id="id-type"
+            name="id-type"
+            placeholder="eg.Aadhaar Card"
+            required
+          />
+        
+          <label for="id-copy"> Upload ID* </label>
+          <input type="file" id="id-copy" name="id-copy" accept=".pdf,.jpg,.png" aria-describedby="upload" required />
+          <small id="upload">Only .pdf,.jpg and .png is allowed</small>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Security</legend>
+          <label for="username"> User-Name* </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="kml-786"
+            pattern="[a-z0-9_]+"
+            title="Only Small Letter, Numbers, and Underscore Allowed"
+            required
+          />
+        
+          <label for="passkey"> Password* </label>
+          <input
+            type="password"
+            name="user-passkey"
+            id="passkey"
+            minlength="8"
+            pattern="[A-Za-z0-9_@]+"
+            title="Only Letters, Numbers, and Symbols(_,@) Allowed"
+            aria-describedby="msg1"
+            required
+          />
+          <small id="msg1">Must be more than 8 Charactes</small>
+        
+          <label for="confirm-passkey"> Confirm Password* </label>
+          <input
+            type="password"
+            id="confirm-passkey"
+            name="confirm-passkey"
+            pattern="[A-Za-z0-9_@]+"
+            title="Only Letters, Numbers, and Symbols(_,@) Allowed"
+            aria-describedby="msg2"
+            required
+          />
+          <small id="msg2">Must be same as the Password</small>
+        </fieldset>
+        <input type="checkbox" id="agreement" name="agreement" required /><label for="agreement">I agree to all
+        <a href="null">Term & Conditions</a>.</label>
+    
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

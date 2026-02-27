@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML A4 Cheatsheet Poster</title>
+<style>
+@page { size: A4; margin: 12mm; }
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  color:#000;
+}
+h1{
+  text-align:center;
+  margin:10px 0 20px 0;
+  font-size:22px;
+}
+.container{
+  column-count:2;
+  column-gap:25px;
+}
+section{
+  break-inside:avoid;
+  margin-bottom:14px;
+}
+h2{
+  font-size:14px;
+  margin:8px 0;
+  border-bottom:1px solid #000;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:11px;
+}
+th,td{
+  border:1px solid #000;
+  padding:4px;
+  text-align:left;
+}
+th{
+  background:#f0f0f0;
+}
+.tag{
+  font-weight:bold;
+  font-family: monospace;
+}
+.footer{
+  position:fixed;
+  bottom:5mm;
+  left:0;
+  right:0;
+  text-align:center;
+  font-size:10px;
+}
+</style>
+</head>
+<body>
+<h1>HTML5 COMPLETE A4 CHEATSHEET</h1>
+<div class="container">
+
+<section>
+<h2>Document Structure</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;!DOCTYPE&gt;</td><td>Defines HTML5 document</td></tr>
+<tr><td class="tag">&lt;html&gt;</td><td>Root element</td></tr>
+<tr><td class="tag">&lt;head&gt;</td><td>Metadata container</td></tr>
+<tr><td class="tag">&lt;title&gt;</td><td>Page title</td></tr>
+<tr><td class="tag">&lt;meta&gt;</td><td>Charset, SEO, viewport</td></tr>
+<tr><td class="tag">&lt;link&gt;</td><td>External resources</td></tr>
+<tr><td class="tag">&lt;style&gt;</td><td>Internal CSS</td></tr>
+<tr><td class="tag">&lt;script&gt;</td><td>JavaScript</td></tr>
+<tr><td class="tag">&lt;body&gt;</td><td>Visible content</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Text Formatting</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;h1&gt;–&lt;h6&gt;</td><td>Headings</td></tr>
+<tr><td class="tag">&lt;p&gt;</td><td>Paragraph</td></tr>
+<tr><td class="tag">&lt;br&gt;</td><td>Line break</td></tr>
+<tr><td class="tag">&lt;hr&gt;</td><td>Divider</td></tr>
+<tr><td class="tag">&lt;strong&gt;</td><td>Important text</td></tr>
+<tr><td class="tag">&lt;em&gt;</td><td>Emphasis</td></tr>
+<tr><td class="tag">&lt;mark&gt;</td><td>Highlight</td></tr>
+<tr><td class="tag">&lt;pre&gt;</td><td>Preformatted text</td></tr>
+<tr><td class="tag">&lt;code&gt;</td><td>Code snippet</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Lists</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;ul&gt;</td><td>Unordered list</td></tr>
+<tr><td class="tag">&lt;ol&gt;</td><td>Ordered list</td></tr>
+<tr><td class="tag">&lt;li&gt;</td><td>List item</td></tr>
+<tr><td class="tag">&lt;dl&gt;</td><td>Description list</td></tr>
+<tr><td class="tag">&lt;dt&gt;</td><td>Term</td></tr>
+<tr><td class="tag">&lt;dd&gt;</td><td>Description</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Links & Media</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;a&gt;</td><td>Hyperlink</td></tr>
+<tr><td class="tag">&lt;img&gt;</td><td>Image</td></tr>
+<tr><td class="tag">&lt;audio&gt;</td><td>Audio player</td></tr>
+<tr><td class="tag">&lt;video&gt;</td><td>Video player</td></tr>
+<tr><td class="tag">&lt;iframe&gt;</td><td>Embed page</td></tr>
+<tr><td class="tag">&lt;canvas&gt;</td><td>Graphics API</td></tr>
+<tr><td class="tag">&lt;svg&gt;</td><td>Vector graphics</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Tables</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;table&gt;</td><td>Table container</td></tr>
+<tr><td class="tag">&lt;tr&gt;</td><td>Row</td></tr>
+<tr><td class="tag">&lt;td&gt;</td><td>Cell</td></tr>
+<tr><td class="tag">&lt;th&gt;</td><td>Header cell</td></tr>
+<tr><td class="tag">&lt;thead&gt;</td><td>Header group</td></tr>
+<tr><td class="tag">&lt;tbody&gt;</td><td>Body group</td></tr>
+<tr><td class="tag">&lt;tfoot&gt;</td><td>Footer group</td></tr>
+<tr><td class="tag">&lt;caption&gt;</td><td>Table title</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Forms</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;form&gt;</td><td>Form container</td></tr>
+<tr><td class="tag">&lt;input&gt;</td><td>User input</td></tr>
+<tr><td class="tag">&lt;label&gt;</td><td>Label</td></tr>
+<tr><td class="tag">&lt;textarea&gt;</td><td>Multi-line text</td></tr>
+<tr><td class="tag">&lt;select&gt;</td><td>Dropdown</td></tr>
+<tr><td class="tag">&lt;option&gt;</td><td>Choice</td></tr>
+<tr><td class="tag">&lt;button&gt;</td><td>Button</td></tr>
+<tr><td class="tag">&lt;fieldset&gt;</td><td>Group fields</td></tr>
+<tr><td class="tag">&lt;legend&gt;</td><td>Group title</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Semantic Layout</h2>
+<table>
+<tr><th>Tag</th><th>Use</th></tr>
+<tr><td class="tag">&lt;header&gt;</td><td>Header section</td></tr>
+<tr><td class="tag">&lt;nav&gt;</td><td>Navigation</td></tr>
+<tr><td class="tag">&lt;main&gt;</td><td>Main content</td></tr>
+<tr><td class="tag">&lt;section&gt;</td><td>Section block</td></tr>
+<tr><td class="tag">&lt;article&gt;</td><td>Independent content</td></tr>
+<tr><td class="tag">&lt;aside&gt;</td><td>Sidebar</td></tr>
+<tr><td class="tag">&lt;footer&gt;</td><td>Footer</td></tr>
+<tr><td class="tag">&lt;figure&gt;</td><td>Media container</td></tr>
+<tr><td class="tag">&lt;figcaption&gt;</td><td>Caption</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Common Attributes</h2>
+<table>
+<tr><th>Attribute</th><th>Use</th></tr>
+<tr><td class="tag">id</td><td>Unique identifier</td></tr>
+<tr><td class="tag">class</td><td>CSS/JS grouping</td></tr>
+<tr><td class="tag">style</td><td>Inline styling</td></tr>
+<tr><td class="tag">title</td><td>Tooltip text</td></tr>
+<tr><td class="tag">hidden</td><td>Hide element</td></tr>
+<tr><td class="tag">data-*</td><td>Custom data</td></tr>
+<tr><td class="tag">contenteditable</td><td>Editable content</td></tr>
+<tr><td class="tag">draggable</td><td>Drag support</td></tr>
+</table>
+</section>
+
+</div>
+<div class="footer">Print at 100% scale | Designed for Single Page A4</div>
+</body>
+</html>

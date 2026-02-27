@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tailwind CSS A4 Cheatsheet</title>
+<style>
+@page { size: A4; margin: 12mm; }
+body{font-family:Arial;margin:0}
+h1{text-align:center;font-size:22px;margin:10px 0}
+.container{column-count:2;column-gap:24px}
+section{break-inside:avoid;margin-bottom:14px}
+h2{font-size:14px;border-bottom:1px solid #000;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th,td{border:1px solid #000;padding:4px;text-align:left}
+th{background:#eee}
+.code{font-family:monospace;font-weight:bold}
+.footer{position:fixed;bottom:5mm;left:0;right:0;text-align:center;font-size:10px}
+</style>
+</head>
+<body>
+<h1>TAILWIND CSS COMPLETE A4 CHEATSHEET</h1>
+<div class="container">
+
+<section>
+<h2>Spacing</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">m-4</td><td>Margin</td></tr>
+<tr><td class="code">p-4</td><td>Padding</td></tr>
+<tr><td class="code">mx-auto</td><td>Center horizontally</td></tr>
+<tr><td class="code">space-x-4</td><td>Horizontal gap</td></tr>
+<tr><td class="code">gap-4</td><td>Grid/Flex gap</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Layout</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">block</td><td>Block element</td></tr>
+<tr><td class="code">inline-block</td><td>Inline block</td></tr>
+<tr><td class="code">hidden</td><td>Hide element</td></tr>
+<tr><td class="code">container</td><td>Responsive container</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Flexbox</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">flex</td><td>Enable flex</td></tr>
+<tr><td class="code">flex-col</td><td>Column direction</td></tr>
+<tr><td class="code">justify-center</td><td>Main axis center</td></tr>
+<tr><td class="code">items-center</td><td>Cross axis center</td></tr>
+<tr><td class="code">flex-wrap</td><td>Wrap items</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Grid</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">grid</td><td>Enable grid</td></tr>
+<tr><td class="code">grid-cols-2</td><td>2 columns</td></tr>
+<tr><td class="code">grid-cols-3</td><td>3 columns</td></tr>
+<tr><td class="code">col-span-2</td><td>Span columns</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Typography</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">text-sm</td><td>Small text</td></tr>
+<tr><td class="code">text-xl</td><td>Large text</td></tr>
+<tr><td class="code">font-bold</td><td>Bold</td></tr>
+<tr><td class="code">text-center</td><td>Align center</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Colors</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">text-red-500</td><td>Text color</td></tr>
+<tr><td class="code">bg-blue-500</td><td>Background color</td></tr>
+<tr><td class="code">border-gray-300</td><td>Border color</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Borders & Effects</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">rounded</td><td>Rounded corners</td></tr>
+<tr><td class="code">shadow</td><td>Shadow</td></tr>
+<tr><td class="code">border</td><td>Add border</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Responsive</h2>
+<table>
+<tr><th>Prefix</th><th>Meaning</th></tr>
+<tr><td class="code">sm:</td><td>≥640px</td></tr>
+<tr><td class="code">md:</td><td>≥768px</td></tr>
+<tr><td class="code">lg:</td><td>≥1024px</td></tr>
+<tr><td class="code">xl:</td><td>≥1280px</td></tr>
+</table>
+</section>
+
+</div>
+<div class="footer">Print at 100% scale | Single Page A4</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tailwind CSS Mastery A4 Cheatsheet</title>
+<style>
+@page { size: A4; margin: 10mm; }
+body{font-family:Arial;margin:0}
+h1{text-align:center;font-size:22px;margin:10px 0}
+.container{column-count:2;column-gap:22px}
+section{break-inside:avoid;margin-bottom:14px}
+h2{font-size:14px;border-bottom:1px solid #000;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:10.5px}
+th,td{border:1px solid #000;padding:4px;text-align:left}
+th{background:#eee}
+.code{font-family:monospace;font-weight:bold}
+.footer{position:fixed;bottom:5mm;left:0;right:0;text-align:center;font-size:10px}
+</style>
+</head>
+<body>
+<h1>TAILWIND CSS COMPLETE MASTERY CHEATSHEET</h1>
+<div class="container">
+
+<section>
+<h2>Spacing</h2>
+<table>
+<tr><th>Class</th><th>Meaning</th></tr>
+<tr><td class="code">p-4 / m-4</td><td>Padding / Margin</td></tr>
+<tr><td class="code">px-4 py-2</td><td>X/Y axis spacing</td></tr>
+<tr><td class="code">space-x-4</td><td>Gap between children</td></tr>
+<tr><td class="code">gap-4</td><td>Grid/Flex gap</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Layout</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">container mx-auto</td><td>Center layout</td></tr>
+<tr><td class="code">block inline hidden</td><td>Display</td></tr>
+<tr><td class="code">flex grid</td><td>Layout modes</td></tr>
+<tr><td class="code">w-full h-screen</td><td>Size</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Flexbox</h2>
+<table>
+<tr><th>Class</th><th>Meaning</th></tr>
+<tr><td class="code">flex-row flex-col</td><td>Direction</td></tr>
+<tr><td class="code">justify-center</td><td>Main axis</td></tr>
+<tr><td class="code">items-center</td><td>Cross axis</td></tr>
+<tr><td class="code">flex-wrap</td><td>Wrap</td></tr>
+<tr><td class="code">grow shrink</td><td>Flex grow/shrink</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Grid</h2>
+<table>
+<tr><th>Class</th><th>Meaning</th></tr>
+<tr><td class="code">grid-cols-2</td><td>Columns</td></tr>
+<tr><td class="code">col-span-2</td><td>Span</td></tr>
+<tr><td class="code">place-items-center</td><td>Center</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Typography</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">text-sm text-xl</td><td>Size</td></tr>
+<tr><td class="code">font-bold</td><td>Weight</td></tr>
+<tr><td class="code">text-center</td><td>Align</td></tr>
+<tr><td class="code">leading-relaxed</td><td>Line height</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Colors</h2>
+<table>
+<tr><th>Class</th><th>Example</th></tr>
+<tr><td class="code">bg-blue-500</td><td>Background</td></tr>
+<tr><td class="code">text-red-600</td><td>Text</td></tr>
+<tr><td class="code">border-gray-300</td><td>Border</td></tr>
+<tr><td class="code">hover:bg-blue-700</td><td>Hover</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Borders & Radius</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">border</td><td>Border</td></tr>
+<tr><td class="code">rounded rounded-lg</td><td>Radius</td></tr>
+<tr><td class="code">shadow shadow-lg</td><td>Shadow</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Position</h2>
+<table>
+<tr><th>Class</th><th>Meaning</th></tr>
+<tr><td class="code">relative absolute fixed</td><td>Position</td></tr>
+<tr><td class="code">top-0 left-0</td><td>Offsets</td></tr>
+<tr><td class="code">z-50</td><td>Z index</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Responsive</h2>
+<table>
+<tr><th>Prefix</th><th>Screen</th></tr>
+<tr><td class="code">sm:</td><td>640px</td></tr>
+<tr><td class="code">md:</td><td>768px</td></tr>
+<tr><td class="code">lg:</td><td>1024px</td></tr>
+<tr><td class="code">xl:</td><td>1280px</td></tr>
+<tr><td class="code">2xl:</td><td>1536px</td></tr>
+</table>
+</section>
+
+<section>
+<h2>States</h2>
+<table>
+<tr><th>Prefix</th><th>Meaning</th></tr>
+<tr><td class="code">hover:</td><td>Hover</td></tr>
+<tr><td class="code">focus:</td><td>Focus</td></tr>
+<tr><td class="code">active:</td><td>Active</td></tr>
+<tr><td class="code">disabled:</td><td>Disabled</td></tr>
+<tr><td class="code">group-hover:</td><td>Parent hover</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Transforms & Animation</h2>
+<table>
+<tr><th>Class</th><th>Use</th></tr>
+<tr><td class="code">scale-110</td><td>Scale</td></tr>
+<tr><td class="code">rotate-45</td><td>Rotate</td></tr>
+<tr><td class="code">transition</td><td>Enable transition</td></tr>
+<tr><td class="code">duration-300</td><td>Speed</td></tr>
+<tr><td class="code">ease-in-out</td><td>Easing</td></tr>
+<tr><td class="code">animate-bounce</td><td>Animation</td></tr>
+</table>
+</section>
+
+</div>
+<div class="footer">Print at 100% scale | Tailwind Mastery Poster</div>
+</body>
+</html>

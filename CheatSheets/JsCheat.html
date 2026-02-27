@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript A4 Cheatsheet</title>
+<style>
+@page { size: A4; margin: 12mm; }
+body{font-family:Arial;margin:0}
+h1{text-align:center;font-size:22px;margin:10px 0}
+.container{column-count:2;column-gap:24px}
+section{break-inside:avoid;margin-bottom:14px}
+h2{font-size:14px;border-bottom:1px solid #000;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th,td{border:1px solid #000;padding:4px;text-align:left}
+th{background:#eee}
+.code{font-family:monospace;font-weight:bold}
+.footer{position:fixed;bottom:5mm;left:0;right:0;text-align:center;font-size:10px}
+</style>
+</head>
+<body>
+<h1>JAVASCRIPT COMPLETE A4 CHEATSHEET</h1>
+<div class="container">
+
+<section>
+<h2>Variables</h2>
+<table>
+<tr><th>Keyword</th><th>Use</th></tr>
+<tr><td class="code">var</td><td>Function scoped (old)</td></tr>
+<tr><td class="code">let</td><td>Block scoped</td></tr>
+<tr><td class="code">const</td><td>Constant reference</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Data Types</h2>
+<table>
+<tr><th>Type</th><th>Example</th></tr>
+<tr><td>String</td><td class="code">"Hello"</td></tr>
+<tr><td>Number</td><td class="code">10</td></tr>
+<tr><td>Boolean</td><td class="code">true/false</td></tr>
+<tr><td>Array</td><td class="code">[1,2,3]</td></tr>
+<tr><td>Object</td><td class="code">{name:"A"}</td></tr>
+<tr><td>Null</td><td class="code">null</td></tr>
+<tr><td>Undefined</td><td class="code">undefined</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Operators</h2>
+<table>
+<tr><th>Operator</th><th>Meaning</th></tr>
+<tr><td class="code">===</td><td>Strict equal</td></tr>
+<tr><td class="code">!==</td><td>Strict not equal</td></tr>
+<tr><td class="code">&&</td><td>AND</td></tr>
+<tr><td class="code">||</td><td>OR</td></tr>
+<tr><td class="code">!</td><td>NOT</td></tr>
+<tr><td class="code">??</td><td>Nullish coalescing</td></tr>
+<tr><td class="code">?.</td><td>Optional chaining</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Functions</h2>
+<table>
+<tr><th>Syntax</th><th>Example</th></tr>
+<tr><td class="code">function</td><td class="code">function add(a,b){}</td></tr>
+<tr><td class="code">Arrow</td><td class="code">(a,b)=>a+b</td></tr>
+<tr><td class="code">return</td><td>Returns value</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Loops</h2>
+<table>
+<tr><th>Type</th><th>Example</th></tr>
+<tr><td>for</td><td class="code">for(let i=0;i<5;i++)</td></tr>
+<tr><td>while</td><td class="code">while(cond)</td></tr>
+<tr><td>for...of</td><td class="code">for(let x of arr)</td></tr>
+<tr><td>for...in</td><td class="code">for(let k in obj)</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Arrays</h2>
+<table>
+<tr><th>Method</th><th>Use</th></tr>
+<tr><td class="code">push()</td><td>Add end</td></tr>
+<tr><td class="code">pop()</td><td>Remove end</td></tr>
+<tr><td class="code">shift()</td><td>Remove first</td></tr>
+<tr><td class="code">map()</td><td>Transform</td></tr>
+<tr><td class="code">filter()</td><td>Filter</td></tr>
+<tr><td class="code">reduce()</td><td>Accumulate</td></tr>
+<tr><td class="code">find()</td><td>Find item</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Objects</h2>
+<table>
+<tr><th>Feature</th><th>Example</th></tr>
+<tr><td>Access</td><td class="code">obj.key / obj["key"]</td></tr>
+<tr><td>Destructuring</td><td class="code">const {a}=obj</td></tr>
+<tr><td>Spread</td><td class="code">{...obj}</td></tr>
+<tr><td>Keys</td><td class="code">Object.keys()</td></tr>
+</table>
+</section>
+
+<section>
+<h2>DOM</h2>
+<table>
+<tr><th>Method</th><th>Use</th></tr>
+<tr><td class="code">querySelector()</td><td>Select element</td></tr>
+<tr><td class="code">getElementById()</td><td>Select by ID</td></tr>
+<tr><td class="code">addEventListener()</td><td>Add event</td></tr>
+<tr><td class="code">classList.add()</td><td>Add class</td></tr>
+<tr><td class="code">innerHTML</td><td>Change content</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Async</h2>
+<table>
+<tr><th>Concept</th><th>Example</th></tr>
+<tr><td>Promise</td><td class="code">new Promise()</td></tr>
+<tr><td>async/await</td><td class="code">await fetch()</td></tr>
+<tr><td>fetch</td><td class="code">fetch(url)</td></tr>
+<tr><td>setTimeout</td><td class="code">setTimeout(fn,1000)</td></tr>
+</table>
+</section>
+
+</div>
+<div class="footer">Print at 100% scale | Single Page A4</div>
+</body>
+</html>
