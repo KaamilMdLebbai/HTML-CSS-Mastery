@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "hero hero hero"
+  "f1 f2 f3"
+  "cta cta cta"
+  "footer footer footer";
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto auto;
+}
+
+.hero {
+  background: burlywood;
+  grid-area: hero;
+}
+
+.f1 {
+  background: rebeccapurple;
+  grid-area: f1;
+}
+
+.f2 {
+  background: goldenrod;
+  grid-area: f2;
+}
+
+.f3 {
+  background: lightcoral;
+  grid-area: f3;
+}
+
+.cta {
+  background: red;
+  grid-area: cta;
+}
+
+.footer {
+  background: chartreuse;
+  grid-area: footer;
+}
+
+@media (max-width: 768px) {
+  .landing {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "hero"
+    "f1"
+    "f2"
+    "f3"
+    "cta"
+    "footer";
+  }
+}
