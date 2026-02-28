@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1200px;
+  gap: 20px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.items {
+  background: lightblue;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+
+.items button {
+  margin-top: auto;
+  background: aqua;
+}
+
+.items img {
+  display: block;
+  width: 100%;
+}
