@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .plan {
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .plan {
+    flex: 1 1 calc(33.333% - 13.333px);
+  }
+}
+
+.plan button {
+  margin-top: auto;
+}
+
+/* For Middle Card */
+.featured {
+  border : 3px solid blue;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
